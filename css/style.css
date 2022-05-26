@@ -1,27 +1,33 @@
 :root {
-    --color-main: #eef132;
-    --color-black: #000000;
-  
-    --font-title: Montserrat, sans-serif;
-    --font-body: Arial, sans-serif;
-  }
-  
-  body {
-    margin: 0;
-    box-sizing: border-box;
-    background-color: var(--color-main);
-  }
-  
-  .container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  --color-main: #eef132;
+  --color-black: #000000;
 
-  .title {
-    color: var(--color-black);
-    text-align: center;
-    font-family: var(--font-title);
-  }
+  --font-title: Montserrat, sans-serif;
+  --font-body: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--color-main);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--color-black);
+  text-align: center;
+  font-family: var(--font-title);
+}
+
+#grid{
+  width: 400px;
+  height: 300px;
+}
+
